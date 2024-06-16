@@ -7,21 +7,21 @@ O Ulife Health é uma aplicação desenvolvida para gerenciar informações rela
 
 Funcionalidades
 Gestão de Usuários:
-Cadastro de novos usuários.
-Atualização e exclusão de dados de usuários existentes.
-Autenticação de usuários (login/logout).
+- Cadastro de novos usuários.
+- Atualização e exclusão de dados de usuários existentes.
+- Autenticação de usuários (login/logout).
 
 Gestão de Pacientes:
-Cadastro automático de pacientes ao criar um novo usuário não médico.
-Visualização de informações de pacientes.
+- Cadastro automático de pacientes ao criar um novo usuário não médico.
+- Visualização de informações de pacientes.
 
 Gestão de Médicos:
-Cadastro automático de médicos ao criar um novo usuário médico.
-Atualização de informações médicas, como CRM e especialidades.
+- Cadastro automático de médicos ao criar um novo usuário médico.
+- Atualização de informações médicas, como CRM e especialidades.
 
 Gestão de Consultas e Exames:
-Marcação de consultas e exames.
-Visualização de histórico de consultas e exames.
+- Marcação de consultas e exames.
+- Visualização de histórico de consultas e exames.
 
 Estrutura do Banco de Dados
 O banco de dados é composto pelas seguintes tabelas:
