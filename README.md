@@ -26,20 +26,20 @@ Visualização de histórico de consultas e exames.
 Estrutura do Banco de Dados
 O banco de dados é composto pelas seguintes tabelas:
 
-tb_usuarios
-tb_pacientes
-tb_medicos
-tb_exames
-tb_consultas
-tb_tipo_exames
+- tb_usuarios
+- tb_pacientes
+- tb_medicos
+- tb_exames
+- tb_consultas
+- tb_tipo_exames
 
 
-Requisitos
-MySQL 8.0.36
-JDK 21.0
-JCalendar 1.4
-JFreeChart 1.5.2
-JavaFX Version 22.0.1
+Requisitos 
+- MySQL 8.0.36
+- JDK 21.0
+- JCalendar 1.4
+- JFreeChart 1.5.2
+- JavaFX Version 22.0.1
 
 
 Para rodar utilizando netbeans
