@@ -57,7 +57,7 @@ com as suas relacionadas ao banco de dados:
 - Abra o Mysql e execute o script de criação do banco e das tabelas contido nesse repositório.
 
 Para a correta visualização do dashboadr que foi desenvolvido com POWER BI, por favor, realize o donwload do Power BI:
-https://powerbi.microsoft.com/pt-br/desktop/
+https://powerbi.microsoft.com/pt-br/desktop/.
 Siga os passos de conexao com o banco de dados contido nesse link: https://cursos.alura.com.br/forum/topico-sugestao-mysql-unable-to-connect-to-any-of-the-specified-mysql-hosts-317229
 
 
