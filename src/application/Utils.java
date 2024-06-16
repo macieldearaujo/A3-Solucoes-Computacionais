@@ -109,9 +109,8 @@ public class Utils {
         DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-        // Faz o parsing da String para LocalDate usando o formato de entrada e formata para o formato desejado
         String formattedDate = LocalDate.parse(birthDate, inputFormatter).format(outputFormatter);
-        // Exibe o resultado
+
         return formattedDate;
     }
 }
