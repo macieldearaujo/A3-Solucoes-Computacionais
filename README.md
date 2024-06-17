@@ -1,8 +1,6 @@
 # A3---Solucoes-Computacionais
 
-Ulife Health
-Descrição
-O Ulife Health é uma aplicação desenvolvida para gerenciar informações relacionadas a pacientes, médicos, consultas e exames em um ambiente hospitalar. A aplicação permite o cadastro, atualização, exclusão e visualização de dados de usuários, pacientes e médicos, além de facilitar o agendamento de consultas e exames.
+O <strong>Ulife Health</strong> é uma aplicação desenvolvida para gerenciar informações relacionadas a pacientes, médicos, consultas e exames em um ambiente hospitalar. A aplicação permite o cadastro, atualização, exclusão e visualização de dados de usuários, pacientes e médicos, além de facilitar o agendamento de consultas e exames.
 
 
 Funcionalidades
@@ -40,6 +38,7 @@ Requisitos
 - JCalendar 1.4
 - JFreeChart 1.5.2
 - JavaFX Version 22.0.1
+- <strong> Power BI Desktop *</strong>
 
 
 Para rodar utilizando netbeans
@@ -56,8 +55,12 @@ com as suas relacionadas ao banco de dados:
     url = "jdbc:mysql://" + serverName + "/" + mydatabase;
 - Abra o Mysql e execute o script de criação do banco e das tabelas contido nesse repositório.
 
-Para a correta visualização do dashboadr que foi desenvolvido com POWER BI, por favor, realize o donwload do Power BI:
-https://powerbi.microsoft.com/pt-br/desktop/.
-Siga os passos de conexao com o banco de dados contido nesse link: https://cursos.alura.com.br/forum/topico-sugestao-mysql-unable-to-connect-to-any-of-the-specified-mysql-hosts-317229
+<br>
+
+<footer><strong>* Para a correta visualização do dashboard que foi desenvolvido com POWER BI, por favor, realize o download do Power BI:
+https://powerbi.microsoft.com/pt-br/desktop/
+<br>
+Siga os passos de conexão com o banco de dados contidos neste link: https://cursos.alura.com.br/forum/topico-sugestao-mysql-unable-to-connect-to-any-of-the-specified-mysql-hosts-317229</strong>
+</footer>
 
 
