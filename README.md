@@ -1,66 +1,65 @@
-# A3---Solucoes-Computacionais
+# A3 - Soluções Computacionais  
 
-O <strong>Ulife Health</strong> é uma aplicação desenvolvida para gerenciar informações relacionadas a pacientes, médicos, consultas e exames em um ambiente hospitalar. A aplicação permite o cadastro, atualização, exclusão e visualização de dados de usuários, pacientes e médicos, além de facilitar o agendamento de consultas e exames.
+## Ulife Health  
 
+O **Ulife Health** é uma aplicação desenvolvida para gerenciar e analisar dados relacionados a pacientes, médicos, consultas e exames em um ambiente hospitalar. Além de facilitar o cadastro, atualização e agendamento, a aplicação conta com integração ao **Power BI**, permitindo a criação de **dashboards interativos** para análise de dados clínicos, acompanhamento de atendimentos e otimização da gestão hospitalar.  
 
-Funcionalidades
-Gestão de Usuários:
-- Cadastro de novos usuários.
-- Atualização e exclusão de dados de usuários existentes.
-- Autenticação de usuários (login/logout).
+![Login](https://github.com/user-attachments/assets/6c3f07d7-494c-4a28-a8ea-6754a13aad38)  
 
-Gestão de Pacientes:
-- Cadastro automático de pacientes ao criar um novo usuário não médico.
-- Visualização de informações de pacientes.
+---
 
-Gestão de Médicos:
-- Cadastro automático de médicos ao criar um novo usuário médico.
-- Atualização de informações médicas, como CRM e especialidades.
+## Funcionalidades  
 
-Gestão de Consultas e Exames:
-- Marcação de consultas e exames.
-- Visualização de histórico de consultas e exames.
+### 🔹 Gestão de Usuários  
+- Cadastro de novos usuários.  
+- Atualização e exclusão de dados de usuários existentes.  
+- Autenticação de usuários (login/logout).  
 
-Estrutura do Banco de Dados
-O banco de dados é composto pelas seguintes tabelas:
+### 🔹 Gestão de Pacientes  
+- Cadastro automático de pacientes ao criar um novo usuário não médico.  
+- Visualização de informações de pacientes.  
 
-- tb_usuarios
-- tb_pacientes
-- tb_medicos
-- tb_exames
-- tb_consultas
-- tb_tipo_exames
+![Tabela de Consultas](https://github.com/user-attachments/assets/5fa45105-83c3-4e9f-87d7-1ac61f9c5355)  
 
+### 🔹 Gestão de Médicos  
+- Cadastro automático de médicos ao criar um novo usuário médico.  
+- Atualização de informações médicas, como CRM e especialidades.  
 
-Requisitos 
-- MySQL 8.0.36
-- JDK 21.0
-- JCalendar 1.4
-- JFreeChart 1.5.2
-- JavaFX Version 22.0.1
-- <strong> Power BI Desktop *</strong>
+![Cadastro de Usuários](https://github.com/user-attachments/assets/541917ef-3a93-47cc-abb3-0b7a20d769ea)  
 
+### 🔹 Gestão de Consultas e Exames  
+- Marcação de consultas e exames.  
+- Visualização de histórico de consultas e exames.  
 
-Para rodar utilizando netbeans
-- Realize o clone desse repositório;
-- Faça o download de todos os requisitos necessários;
-- Faça a importação dos requisitos para a parte de Libraries utilizando 
-JAR/Folder;
-- No arquivo CreateConnection no package database, altere as informações
-com as suas relacionadas ao banco de dados:
-    serverName = "localhost";
-    mydatabase = "db_hospital";
-    usuario = "root";
-    senha = "root";
-    url = "jdbc:mysql://" + serverName + "/" + mydatabase;
-- Abra o Mysql e execute o script de criação do banco e das tabelas contido nesse repositório.
+![Cadastro de Exames](https://github.com/user-attachments/assets/deefb1a2-f2a7-418d-81d4-2985306668a8)  
 
-<br>
+---
 
-<footer><strong>* Para a correta visualização do dashboard que foi desenvolvido com POWER BI, por favor, realize o download do Power BI:
-https://powerbi.microsoft.com/pt-br/desktop/
-<br>
-Siga os passos de conexão com o banco de dados contidos neste link: https://cursos.alura.com.br/forum/topico-sugestao-mysql-unable-to-connect-to-any-of-the-specified-mysql-hosts-317229</strong>
-</footer>
+## 📊 Estrutura do Banco de Dados  
 
+O banco de dados é composto pelas seguintes tabelas:  
+- `tb_usuarios`  
+- `tb_pacientes`  
+- `tb_medicos`  
+- `tb_exames`  
+- `tb_consultas`  
+- `tb_tipo_exames`  
 
+---
+
+## 🛠 Requisitos  
+
+- **MySQL** 8.0.36  
+- **JDK** 21.0  
+- **JCalendar** 1.4  
+- **JFreeChart** 1.5.2  
+- **JavaFX** 22.0.1  
+- **Power BI Desktop**  
+
+---
+
+## 🚀 Como Rodar o Projeto no NetBeans  
+
+1. Clone este repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/A3---Solucoes-Computacionais.git
